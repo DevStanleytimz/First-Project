@@ -1,0 +1,42 @@
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 5px;
+    width: 15%;
+    padding: 10px;
+    background: gray;
+    color: white;
+}
+
+.btn{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 35%;
+    background: gray;
+    padding-bottom: 20px;
+}
+
+.btn:hover{
+    color: blueviolet;
+}
+
+.back{
+    border-color: aliceblue;
+    border-radius: 7px;
+    
+}
+
+.back:hover{
+    border-color: burlywood;
+}
